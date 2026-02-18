@@ -12,7 +12,7 @@ Optimized for **Apple Silicon (MPS)**, CUDA, and CPU.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 -   **Architecture**:
     -   **DiT-1D**: A Transformer specialized for 1D sequences, using patch embeddings and adaptive layer normalization.
@@ -27,10 +27,10 @@ Optimized for **Apple Silicon (MPS)**, CUDA, and CPU.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
-fm_sda/
+fmsda/
 ├── src/
 │   └── fm_sda/
 │       ├── __init__.py
@@ -51,7 +51,7 @@ fm_sda/
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 Ensure you have a Python environment (Python 3.10+ recommended).
 
@@ -66,7 +66,7 @@ pip install torch numpy scipy scikit-learn matplotlib seaborn pandas tqdm
 
 ---
 
-## ⚡ Usage
+## Usage
 
 ### 1. Train Standard Model (OT-CFM)
 
@@ -124,7 +124,7 @@ python scripts/visualize.py \
 
 ---
 
-## 📊 Results
+## Results
 
 The model generates high-fidelity spectra that statistically match the real data distribution.
 
@@ -134,7 +134,3 @@ The model generates high-fidelity spectra that statistically match the real data
 *(See `results/` directory for generated plots)*
 
 ---
-
-## 📝 License
-
-This project is open-source.
